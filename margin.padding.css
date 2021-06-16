@@ -1,0 +1,22 @@
+
+div{
+    background-color: rgba(255, 10,50, 0.4);
+    padding: 25px;
+}
+
+
+#başlık1 {
+    background-color: aquamarine;
+}
+#par1 {
+    background-color: chartreuse;
+    border: 20px solid red;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+#başlık3 {
+    background-color: cornflowerblue;
+    margin-top: 80px;
+}

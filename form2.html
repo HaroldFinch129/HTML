@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        #şeker{
+            width: 200px;
+            border: 2px solid brown
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    ><form action="RESULT.HTML">
+
+        <div>
+            <label for="şeker">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı"  id="şeker" multiple size="4" required>
+                <option>>Bir tatlı seçiniz</option>
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                <option value="Aşure">Aşure</option>
+                <option value="puding">puding</option>
+                <option value="magnolya">magnolya</option>
+                
+            </select>
+
+        </div>
+
+        <div>
+            <label for="şeker">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı"  id="şeker" multiple size="4" required>
+                <optgroup label="sütlü tatlılar">
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                </optgroup>
+                <option>>Bir tatlı seçiniz</option>
+                <option value="Aşure">Aşure</option>
+                <option value="puding">puding</option>
+                <option value="magnolya">magnolya</option>
+                
+            </select>
+
+        </div>
+
+        <div>
+            <textarea name="yorum" id="ta1" style="width: 100%; height: 100px;" placeholder="yorum lütfen"></textarea> </textarea>
+
+        </div>
+        <br>
+
+         <div>
+            <label for="input-browser">Browsers:</label>
+            <input type="text" name="Kulllanılan Browser" id="input-browser" list="browsers">
+            <datalist id="browser">
+                <option value="Crome">Crome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Crome">crome</option>
+                <option value="Crome">crome</option>
+                <option value="Crome">crome</option>
+             </datalist>
+            
+             <div>
+               <fieldset>
+                   <legend>Kişisel bilgiler</legend>
+                   <label for="fname">isim:</label><br>
+                   <input type="text" name="isim" id="fname" value="harold"> <br>
+                   <label for="lname">soyisim</label><br>
+                   <input type="text" name="soyisim" id="lname" placeholder="soyadınızı giriniz">
+                
+               </fieldset>
+
+
+
+    
+            </div>
+            <br>
+            
+
+
+
+
+        </div>
+       
+
+
+        
+       
+
+
+
+
+
+
+
+
+
+
+
+        <input type="submit">
+    </form>
+    
+
+
+</body>
+</html>

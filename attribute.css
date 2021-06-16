@@ -1,0 +1,26 @@
+h2[title="baslik1"] {
+    color: red;
+}
+p[title="paragraf1"] {
+    color: green;
+}
+a[target="_blank"] {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 5px;
+    background-color: burlywood;
+    margin: 2px;
+    list-style-type: "😍";
+    text-align: center;
+
+}
+ul li:first-child {
+    background-color: blue;
+}
+
+ul li:last-child {
+   background-color: aqua; 
+}

@@ -1,0 +1,24 @@
+#par1 {
+    color: rgba(0, 255, 10, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+}
+#par2 {
+    color:blue;
+    text-align: right;
+}
+#par3 {
+    color:red;
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#par4 {
+    color: hsla(120, 80%, 50%, 0.9);
+    text-decoration: underline;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+#par5 {
+    color: green;
+    word-spacing: 15px;
+}
