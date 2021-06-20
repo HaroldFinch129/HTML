@@ -1,0 +1,19 @@
+div {
+    border: 3px solid black;
+    background-color: burlywood;
+    margin: 10px;
+    
+
+}
+img {
+    float: left;
+    
+    
+}
+
+.clearfix {
+    content: "";
+    clear: right;
+    display: table;
+}
+
